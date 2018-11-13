@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel='stylesheet' href='index.css'>
+        
+        <title>Simpletron Machine Lanauge</title>
+    </head>
+    <body>
+        <div id='links'>
+            <p>Links</p>
+            <a href='readme.md'>View Readme</a>
+            <br />
+        </div>
+        <div id='code'>
+            <div>Code</div>
+            <textarea wrap='off'></textarea>
+        </div>
+        <div id='output'>
+            <div>Console</div>
+            <textarea wrap='off' readonly></textarea>
+        </div>
+        <br />
+        <button id='btn-load'>Load into memory</button>
+        <button id='btn-exec'>Execute</button>
+        <button id='btn-debug'>Start Debug</button>
+        <button id='btn-clear'>Clear console</button>
+        
+        <div id='dump'>
+            <div>Memory Dump</div>
+            <textarea readonly></textarea>
+        </div>
+        
+        <script src='opcodes.js'></script>
+        <script src='index.js'></script>
+    </body>
+</html>
