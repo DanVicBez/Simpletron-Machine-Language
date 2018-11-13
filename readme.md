@@ -1,5 +1,17 @@
 The Simpletron
 ===============
+
+## Description
+Simpletron Machine Language (SML) is a very simple machine language that runs on a theoretical decimal computer
+with only one register and 100 4-digit memory locations. The only data type is a signed number ranging from -9999 to +9999.
+There are 12 operations, which are listed below. 
+All operations, except for 43 (HALT), take a 2-digit operand which represents a memory location.
+
+## Usage
+Write your SML into the "Code" window. Each command must be on a separate line, and must be preceded by a line number.
+Refer to the examples below for formatting.
+Once you have written your SML, press "Load into memory". The commands will be loaded sequentially into memory.
+
 Operation Codes
 ---------------
 * 10: READ
